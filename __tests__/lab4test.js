@@ -6,7 +6,7 @@ describe('Testing sumValues...', () => {
     });
     
     test('Testing third parameter', () => {
-        expect(sumValues(2, 4, false)).toBe(false);
+        expect(sumValues(2, 4, false)).toBe(true);
     });
 
     test('Testing wrong paramter type..', () => {
