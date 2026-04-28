@@ -11,6 +11,10 @@ function sumValues(num1, num2, add) {
         result = num1 + num2;
         return result;
     }
+
+    if (typeof num1 !== 'number' || typeof num2 !== 'number' || typeof add !== 'boolean') {
+        return false;
+    }
     else {
         return add;
     }
